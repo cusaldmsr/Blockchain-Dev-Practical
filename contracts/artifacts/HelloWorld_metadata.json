@@ -30,6 +30,19 @@
 				],
 				"stateMutability": "view",
 				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_newGreeting",
+						"type": "string"
+					}
+				],
+				"name": "setHello",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
 			}
 		],
 		"devdoc": {
@@ -60,11 +73,11 @@
 	},
 	"sources": {
 		"contracts/HelloWorld.sol": {
-			"keccak256": "0x5ffec303128c42bac7bc5a7f3790373922ba5a754e5ec59fe9abe83dfcf5681d",
+			"keccak256": "0x806745a0d4a036c63a92779503d0e14c4a10eaf3f7ac124b461238298db59e44",
 			"license": "GPL-3.0",
 			"urls": [
-				"bzz-raw://b1222993e5f576e0de0900b64f539c229fb9ff8de6324cfb670e069423f2d8d8",
-				"dweb:/ipfs/QmTrdHGqVgXZaL6qk1zjvaEzjiU6xN3XFcUeW4oFgsTMcD"
+				"bzz-raw://79630e593e83a1b2f2c9090747fb8a279809d125625fefc1bb096727f64f66c6",
+				"dweb:/ipfs/QmWS1iVPccReFLH3tKeuSoECmJFrxrLMLc5gQpMmHhLfm5"
 			]
 		}
 	},
