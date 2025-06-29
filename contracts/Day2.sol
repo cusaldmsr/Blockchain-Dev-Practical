@@ -7,4 +7,8 @@ contract Session02{
     function setMessage(string memory _newMsg) public {
         message = _newMsg;
     }
+
+    function getMessage() public view returns(string memory){
+        return message;
+    }
 }

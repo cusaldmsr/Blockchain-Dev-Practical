@@ -6,6 +6,19 @@
 	"output": {
 		"abi": [
 			{
+				"inputs": [],
+				"name": "getMessage",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
 				"inputs": [
 					{
 						"internalType": "string",
@@ -47,11 +60,11 @@
 	},
 	"sources": {
 		"contracts/Day2.sol": {
-			"keccak256": "0xd5d736ed5cbf7983cd23263661a8e01c4ef738f092f7795ee18d1cb5cc0ea42e",
+			"keccak256": "0x0fa2c194dcc305d3102dca0db14cca2a36f49d988c68f7210254346a4a2266ad",
 			"license": "GPL-3.0",
 			"urls": [
-				"bzz-raw://54d7b9e533bddddced439d3f3cb020238f3b392b07291439e24a0cd990543fb5",
-				"dweb:/ipfs/Qmd3sQy49dtgEJgdKbrxPt8KSZ48ChsPKPuGSAriqy2ziP"
+				"bzz-raw://288ac0cca0d8d3e17e9ad118ab6d134d242aed35577c94f8219df13a1f8e7f1f",
+				"dweb:/ipfs/QmVvNWf1wvK3QbcUJKeaez2hNbbvSDNqTtZtYnB8ecJs8n"
 			]
 		}
 	},
