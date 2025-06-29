@@ -15,32 +15,6 @@
 				],
 				"stateMutability": "nonpayable",
 				"type": "constructor"
-			},
-			{
-				"inputs": [],
-				"name": "getMessage",
-				"outputs": [
-					{
-						"internalType": "string",
-						"name": "",
-						"type": "string"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [
-					{
-						"internalType": "string",
-						"name": "_newMsg",
-						"type": "string"
-					}
-				],
-				"name": "setMessage",
-				"outputs": [],
-				"stateMutability": "nonpayable",
-				"type": "function"
 			}
 		],
 		"devdoc": {
@@ -71,11 +45,11 @@
 	},
 	"sources": {
 		"contracts/Day2.sol": {
-			"keccak256": "0x57dd888b7be8b870b39747bb8de05f60f860aa32f9030846336f204ace45b3cc",
+			"keccak256": "0xf7d6cb1315c5289cbd7ab093e72bae47303b6b90d10b940e6d06ad3c7ffdc7c7",
 			"license": "GPL-3.0",
 			"urls": [
-				"bzz-raw://8f82d352e95a716abc5195903b05818323baf9f0b2f22332b2f1db2336319c84",
-				"dweb:/ipfs/QmT4ZUnea2kPS1nn8e6YYaFLBhZB7P16wyVvxEEqYk4zPb"
+				"bzz-raw://9beeafdf9cb98b2c92b5b08f1a39bc533e1b16fc5b58059aa1a9f89ee72d978e",
+				"dweb:/ipfs/Qmeyw1yurkRttSg4sShzpb8UC7Yhe9pvw99ryXBeAXF7QB"
 			]
 		}
 	},
