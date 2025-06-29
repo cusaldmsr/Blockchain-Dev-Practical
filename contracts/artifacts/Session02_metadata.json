@@ -4,7 +4,21 @@
 	},
 	"language": "Solidity",
 	"output": {
-		"abi": [],
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_newMsg",
+						"type": "string"
+					}
+				],
+				"name": "setMessage",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
 		"devdoc": {
 			"kind": "dev",
 			"methods": {},
@@ -33,11 +47,11 @@
 	},
 	"sources": {
 		"contracts/Day2.sol": {
-			"keccak256": "0x9506c7bf27571ea664d099dec54b230270f29b8e8e44c9af002b397e5701bbe3",
+			"keccak256": "0xd5d736ed5cbf7983cd23263661a8e01c4ef738f092f7795ee18d1cb5cc0ea42e",
 			"license": "GPL-3.0",
 			"urls": [
-				"bzz-raw://66a2081ca6b6c3b84c2b64ace1e5b0aa132151b345d6e517fbecbd8016405520",
-				"dweb:/ipfs/QmbDgUkyKG9ywx6yhc62B3yyK3pLKQ1GJEahJ5uZw7YzMz"
+				"bzz-raw://54d7b9e533bddddced439d3f3cb020238f3b392b07291439e24a0cd990543fb5",
+				"dweb:/ipfs/Qmd3sQy49dtgEJgdKbrxPt8KSZ48ChsPKPuGSAriqy2ziP"
 			]
 		}
 	},

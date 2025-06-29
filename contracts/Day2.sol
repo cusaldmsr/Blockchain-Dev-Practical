@@ -2,5 +2,9 @@
 pragma solidity ^0.8.30;
 
 contract Session02{
+    string message;
 
+    function setMessage(string memory _newMsg) public {
+        message = _newMsg;
+    }
 }
