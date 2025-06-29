@@ -24,4 +24,12 @@ contract Session02 {
         }
         return (_number);
     }
+
+    function countAgain(int _num) public pure returns (int) {
+
+        for (int i=0; i < 10 ; i++ ) {
+            _num++;
+        }
+        return (_num);
+    }
 }

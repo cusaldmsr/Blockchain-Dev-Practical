@@ -53,6 +53,25 @@
 				],
 				"stateMutability": "pure",
 				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "int256",
+						"name": "_num",
+						"type": "int256"
+					}
+				],
+				"name": "countAgain",
+				"outputs": [
+					{
+						"internalType": "int256",
+						"name": "",
+						"type": "int256"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
 			}
 		],
 		"devdoc": {
@@ -83,11 +102,11 @@
 	},
 	"sources": {
 		"contracts/Day2.sol": {
-			"keccak256": "0x51cb4c51061319f1e5b7f2a2a020c612209fdcfeed5ee547b1ffe8975205be39",
+			"keccak256": "0xf53a2c516115a3ac32820dbbffb18553ab19c2b4c3f724f0c264364455c1376d",
 			"license": "GPL-3.0",
 			"urls": [
-				"bzz-raw://71cec4dffb7e6777a86ba450ec976b36c74ee3690026f7e47f57eee29b5d68b8",
-				"dweb:/ipfs/QmNgpvduPYLBkPx1tcZTaqP1kp4WBZphrzDq8JkTA61t4m"
+				"bzz-raw://18fbf146f549e66ae179923a1434c52d7e84c39fe50655b4f1538dcc0bb918d4",
+				"dweb:/ipfs/QmNnk11QLt3h2Liwv6mPZmNrtaGAt4DqTSS4H5WTW3nq8Q"
 			]
 		}
 	},
