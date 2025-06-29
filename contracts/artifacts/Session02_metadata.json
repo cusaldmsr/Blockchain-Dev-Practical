@@ -6,6 +6,17 @@
 	"output": {
 		"abi": [
 			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_message",
+						"type": "string"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
 				"inputs": [],
 				"name": "getMessage",
 				"outputs": [
@@ -60,11 +71,11 @@
 	},
 	"sources": {
 		"contracts/Day2.sol": {
-			"keccak256": "0x0fa2c194dcc305d3102dca0db14cca2a36f49d988c68f7210254346a4a2266ad",
+			"keccak256": "0x57dd888b7be8b870b39747bb8de05f60f860aa32f9030846336f204ace45b3cc",
 			"license": "GPL-3.0",
 			"urls": [
-				"bzz-raw://288ac0cca0d8d3e17e9ad118ab6d134d242aed35577c94f8219df13a1f8e7f1f",
-				"dweb:/ipfs/QmVvNWf1wvK3QbcUJKeaez2hNbbvSDNqTtZtYnB8ecJs8n"
+				"bzz-raw://8f82d352e95a716abc5195903b05818323baf9f0b2f22332b2f1db2336319c84",
+				"dweb:/ipfs/QmT4ZUnea2kPS1nn8e6YYaFLBhZB7P16wyVvxEEqYk4zPb"
 			]
 		}
 	},
