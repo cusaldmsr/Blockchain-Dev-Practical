@@ -15,6 +15,25 @@
 				],
 				"stateMutability": "nonpayable",
 				"type": "constructor"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "int256",
+						"name": "_number",
+						"type": "int256"
+					}
+				],
+				"name": "checkMessage",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
 			}
 		],
 		"devdoc": {
@@ -45,11 +64,11 @@
 	},
 	"sources": {
 		"contracts/Day2.sol": {
-			"keccak256": "0xf7d6cb1315c5289cbd7ab093e72bae47303b6b90d10b940e6d06ad3c7ffdc7c7",
+			"keccak256": "0xaed12c9ed06ac264ea6f845580231947279c5155f83d7590d914cd56225b9623",
 			"license": "GPL-3.0",
 			"urls": [
-				"bzz-raw://9beeafdf9cb98b2c92b5b08f1a39bc533e1b16fc5b58059aa1a9f89ee72d978e",
-				"dweb:/ipfs/Qmeyw1yurkRttSg4sShzpb8UC7Yhe9pvw99ryXBeAXF7QB"
+				"bzz-raw://17bcc406a6b549fc08001f22236bdd13a676ad1d9ab550c4b0ffd8af1be0d843",
+				"dweb:/ipfs/QmUuitdBD4sGr69U4VbZCtREhCPPGQBV33ocxzuhiX7fRx"
 			]
 		}
 	},

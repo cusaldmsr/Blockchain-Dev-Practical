@@ -8,4 +8,12 @@ contract Session02 {
         message = _message;
     }
 
+    function checkMessage(int _number) public view returns (string memory) {
+        //key=1234
+        if (_number == 1234) {
+            return message;
+        }else {
+            return "Not allowed"; 
+        }
+    }
 }
