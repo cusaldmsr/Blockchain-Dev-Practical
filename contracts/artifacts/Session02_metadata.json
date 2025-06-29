@@ -1,0 +1,114 @@
+{
+	"compiler": {
+		"version": "0.8.30+commit.73712a01"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_message",
+						"type": "string"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "int256",
+						"name": "_number",
+						"type": "int256"
+					}
+				],
+				"name": "checkMessage",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "int256",
+						"name": "_number",
+						"type": "int256"
+					}
+				],
+				"name": "count",
+				"outputs": [
+					{
+						"internalType": "int256",
+						"name": "",
+						"type": "int256"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "int256",
+						"name": "_num",
+						"type": "int256"
+					}
+				],
+				"name": "countAgain",
+				"outputs": [
+					{
+						"internalType": "int256",
+						"name": "",
+						"type": "int256"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/Day2.sol": "Session02"
+		},
+		"evmVersion": "prague",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/Day2.sol": {
+			"keccak256": "0xf53a2c516115a3ac32820dbbffb18553ab19c2b4c3f724f0c264364455c1376d",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://18fbf146f549e66ae179923a1434c52d7e84c39fe50655b4f1538dcc0bb918d4",
+				"dweb:/ipfs/QmNnk11QLt3h2Liwv6mPZmNrtaGAt4DqTSS4H5WTW3nq8Q"
+			]
+		}
+	},
+	"version": 1
+}
