@@ -16,4 +16,12 @@ contract Session02 {
             return "Not allowed"; 
         }
     }
+    function count(int _number) public pure returns (int){
+        int i = 0;
+        while (i < 10 ){
+            _number++;
+            i++;
+        }
+        return (_number);
+    }
 }

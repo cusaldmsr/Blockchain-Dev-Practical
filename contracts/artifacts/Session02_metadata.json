@@ -34,6 +34,25 @@
 				],
 				"stateMutability": "view",
 				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "int256",
+						"name": "_number",
+						"type": "int256"
+					}
+				],
+				"name": "count",
+				"outputs": [
+					{
+						"internalType": "int256",
+						"name": "",
+						"type": "int256"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
 			}
 		],
 		"devdoc": {
@@ -64,11 +83,11 @@
 	},
 	"sources": {
 		"contracts/Day2.sol": {
-			"keccak256": "0xaed12c9ed06ac264ea6f845580231947279c5155f83d7590d914cd56225b9623",
+			"keccak256": "0x51cb4c51061319f1e5b7f2a2a020c612209fdcfeed5ee547b1ffe8975205be39",
 			"license": "GPL-3.0",
 			"urls": [
-				"bzz-raw://17bcc406a6b549fc08001f22236bdd13a676ad1d9ab550c4b0ffd8af1be0d843",
-				"dweb:/ipfs/QmUuitdBD4sGr69U4VbZCtREhCPPGQBV33ocxzuhiX7fRx"
+				"bzz-raw://71cec4dffb7e6777a86ba450ec976b36c74ee3690026f7e47f57eee29b5d68b8",
+				"dweb:/ipfs/QmNgpvduPYLBkPx1tcZTaqP1kp4WBZphrzDq8JkTA61t4m"
 			]
 		}
 	},
