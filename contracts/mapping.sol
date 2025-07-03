@@ -10,5 +10,15 @@ contract Bank {
     }
     function getBalance() public view returns (uint256 balance) {
             return balances[msg.sender];
-        } 
+    } 
+
+    function _transfer(address _from, address _to , uint _amount) private {
+        balances[_from] -= _amount; //subtract the amount from the sender
+        balances[_to] += _amount;  //add the amount to the receiver's account
+    }
+
+    function transfer(address _recipient , uint _amount) public{
+        _transfer(msg.sender , _recipient, _amount);
+    }
+    
 }

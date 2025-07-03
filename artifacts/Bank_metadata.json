@@ -36,6 +36,24 @@
 				],
 				"stateMutability": "view",
 				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_recipient",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_amount",
+						"type": "uint256"
+					}
+				],
+				"name": "transfer",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
 			}
 		],
 		"devdoc": {
@@ -66,11 +84,11 @@
 	},
 	"sources": {
 		"contracts/mapping.sol": {
-			"keccak256": "0xcc011d0f569fe9aabe7f75e5628a4b12c2c47c5471dad0b774e7ad75a1764d58",
+			"keccak256": "0xe60a7a0ad4aff4a36388d7ac3df3fb759fe0fc7233a119580fffc1e1132f76f3",
 			"license": "GPL-3.0",
 			"urls": [
-				"bzz-raw://737b19c6e44737de4729c0dfd07cb7faca8faed1c9d04e0819f0d65521fd2910",
-				"dweb:/ipfs/QmbxETj1W68Jcmm3RvpocoAnvJHNptFq1fC1ckAGQNNiZv"
+				"bzz-raw://6955807e73132be2ac6125320a7543dae4b1f97207cff1ff65444b84d1677167",
+				"dweb:/ipfs/QmPJFtVMwmWaZLj9DKSe1BsF6usXyKiJsV12xtuvjEkGd8"
 			]
 		}
 	},
