@@ -3,19 +3,20 @@ pragma solidity ^0.8.30;
 
 contract Day3 {
 
-    int [] numbers;
-    function addNumber(int _number) public{
-        numbers.push(_number);
-        //add a number to the array 
+    struct Person{
+        uint age;
+        string name;
+    }
+    
+    Person[] people;
+
+    function addPerson(uint _age,string memory _name) public {
+        Person memory newPerson = Person(_age,_name);
+        people.push(newPerson);
     }
 
-    function getNumber(uint _index) public view returns (int){
-        return numbers[_index];
-        //return the element at index of the array
-    }
-
-    function getAllNumbers() public view returns (int[] memory ){
-        return numbers;
-        //returns the whole array
+    function getPerson(uint _index) public view returns (uint , string memory ) {
+        Person memory newPerson = people[_index];
+        return (newPerson.age, newPerson.name);
     }
 }

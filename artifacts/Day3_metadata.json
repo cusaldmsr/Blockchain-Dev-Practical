@@ -8,27 +8,19 @@
 			{
 				"inputs": [
 					{
-						"internalType": "int256",
-						"name": "_number",
-						"type": "int256"
+						"internalType": "uint256",
+						"name": "_age",
+						"type": "uint256"
+					},
+					{
+						"internalType": "string",
+						"name": "_name",
+						"type": "string"
 					}
 				],
-				"name": "addNumber",
+				"name": "addPerson",
 				"outputs": [],
 				"stateMutability": "nonpayable",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "getAllNumbers",
-				"outputs": [
-					{
-						"internalType": "int256[]",
-						"name": "",
-						"type": "int256[]"
-					}
-				],
-				"stateMutability": "view",
 				"type": "function"
 			},
 			{
@@ -39,12 +31,17 @@
 						"type": "uint256"
 					}
 				],
-				"name": "getNumber",
+				"name": "getPerson",
 				"outputs": [
 					{
-						"internalType": "int256",
+						"internalType": "uint256",
 						"name": "",
-						"type": "int256"
+						"type": "uint256"
+					},
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
 					}
 				],
 				"stateMutability": "view",
@@ -79,11 +76,11 @@
 	},
 	"sources": {
 		"contracts/Day3.sol": {
-			"keccak256": "0x3d791a863db829c4fdd996cb6587477daddc3b9d8626e469ebb922119db6e9ea",
+			"keccak256": "0x5cb39427341fd5c4e074f2b7adf483a8b923261660f6d8430df67754b9bba735",
 			"license": "GPL-3.0",
 			"urls": [
-				"bzz-raw://9982ddcec48b205e04098b89478fbe5509829e7267c70dddbe8dca24db56bc1b",
-				"dweb:/ipfs/QmYoRGxv8HBCsbHUMptPaHf4oAYY5GQpwiiB43WtL4Fz5y"
+				"bzz-raw://4d7b315286858b177a1c2b04f2e99c433b20949d1305ec10f664ef40b0421de1",
+				"dweb:/ipfs/QmUnTKdHffnU2uEXwUVeDdQnxg3cVwmVQ83eRRb7ySNAJ6"
 			]
 		}
 	},
