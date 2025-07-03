@@ -13,4 +13,9 @@ contract Day3 {
         return numbers[_index];
         //return the element at index of the array
     }
+
+    function getAllNumbers() public view returns (int[] memory ){
+        return numbers;
+        //returns the whole array
+    }
 }

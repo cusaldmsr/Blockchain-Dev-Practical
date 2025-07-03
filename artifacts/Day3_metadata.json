@@ -19,6 +19,19 @@
 				"type": "function"
 			},
 			{
+				"inputs": [],
+				"name": "getAllNumbers",
+				"outputs": [
+					{
+						"internalType": "int256[]",
+						"name": "",
+						"type": "int256[]"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
 				"inputs": [
 					{
 						"internalType": "uint256",
@@ -66,11 +79,11 @@
 	},
 	"sources": {
 		"contracts/Day3.sol": {
-			"keccak256": "0x8841d08728e98eb3a4c327aeba391ff0e245f515d7790836fb4afe9b521b73a9",
+			"keccak256": "0x3d791a863db829c4fdd996cb6587477daddc3b9d8626e469ebb922119db6e9ea",
 			"license": "GPL-3.0",
 			"urls": [
-				"bzz-raw://f48158aba4ed2e1032375af9e10d73ef86dc1a3d08fe5720bea225e31265518b",
-				"dweb:/ipfs/QmRNqmYGygiWKHgU33eACHT4m4adoBPRPTmLLiXuSAshqg"
+				"bzz-raw://9982ddcec48b205e04098b89478fbe5509829e7267c70dddbe8dca24db56bc1b",
+				"dweb:/ipfs/QmYoRGxv8HBCsbHUMptPaHf4oAYY5GQpwiiB43WtL4Fz5y"
 			]
 		}
 	},
