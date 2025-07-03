@@ -18,7 +18,15 @@ contract Bank {
     }
 
     function transfer(address _recipient , uint _amount) public{
+        require(balances[msg.sender] >= _amount,"Insufficient Balance");
+        require(_amount >= 10,"Transfers must be greater than or equal to 10");
+        require(msg.sender != _recipient);
+
+        uint preBalance = balances[msg.sender];
+        
         _transfer(msg.sender , _recipient, _amount);
+
+        assert(balances[msg.sender] == preBalance - _amount);
     }
     
 }

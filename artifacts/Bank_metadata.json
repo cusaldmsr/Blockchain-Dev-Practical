@@ -84,11 +84,11 @@
 	},
 	"sources": {
 		"contracts/mapping.sol": {
-			"keccak256": "0xe60a7a0ad4aff4a36388d7ac3df3fb759fe0fc7233a119580fffc1e1132f76f3",
+			"keccak256": "0x47ec087802798623f7cfa816f6910b4f42524ce2d7a909306aae8d83e83c318a",
 			"license": "GPL-3.0",
 			"urls": [
-				"bzz-raw://6955807e73132be2ac6125320a7543dae4b1f97207cff1ff65444b84d1677167",
-				"dweb:/ipfs/QmPJFtVMwmWaZLj9DKSe1BsF6usXyKiJsV12xtuvjEkGd8"
+				"bzz-raw://a363d3534e2ffc6ef4a5640524fdc418cf80a7f3004f9baa1f7858226fc91ce0",
+				"dweb:/ipfs/QmRYFbb3Yi2XE54yBZos9fqtzUJ3LWtrnWjMTKTqvu2DWG"
 			]
 		}
 	},
