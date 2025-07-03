@@ -4,6 +4,12 @@ pragma solidity ^0.8.30;
 contract Bank {
     mapping (address => uint256) balances; 
 
+    address owner;
+
+    constructor () {
+        owner = msg.sender; //store the deployer of contract in 'owner' variable
+    }
+
     function addBalance(uint _toAdd) public returns (uint256){
         balances[msg.sender] += _toAdd;
         return balances[msg.sender];
@@ -23,7 +29,7 @@ contract Bank {
         require(msg.sender != _recipient);
 
         uint preBalance = balances[msg.sender];
-        
+
         _transfer(msg.sender , _recipient, _amount);
 
         assert(balances[msg.sender] == preBalance - _amount);
