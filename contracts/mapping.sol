@@ -11,6 +11,8 @@ contract Bank {
     }
 
     function addBalance(uint _toAdd) public returns (uint256){
+        require(msg.sender == owner); // Check if the caller is the contract deployer
+
         balances[msg.sender] += _toAdd;
         return balances[msg.sender];
     }
